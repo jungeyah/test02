@@ -1,0 +1,169 @@
+https://github.com/BorisMoore/jquery-tmpl
+
+-- add test 1
+-- add test 3
+-- add test 5
+
+:id="`imgNum_${d.imgCheck}`"
+
+
+
+공통. var vm = new Vue({ }) 안됨
+
+
+board       board에서는 icon 비노출 v-if="etc ? prepend-icon="mdi-account": ''" ,  v-if="`etc ? prepend-icon='mdi-leaf': ''`"      
+            paging
+
+quote       연락처 값을 체크하고 싶을때???
+
+gallery     배열 for문
+            콘솔창에서 등록  ???
+            이미지 경로 값으로 넣으려면...
+             :src="require('"+ {{url[0]}}+"')"
+             :src="url[imgNum]"
+             Card 이미지 복수일때
+
+              //this.dialog = ture;  안먹음
+
+
+              //props : [url, title, imgCheck],  card로 값 전달할때???
+
+
+입력시 error
+안내창 dialog
+로딩바 loading (ajax호출)
+우상단 검색버튼 - 다이어로그창 팝업창으로 오픈 Search 컴포넌트로
+
+검색화면
+검색어입력시 목록에 spa로 바로 등록
+
+axios ???
+
+
+////////////////////////
+jMsgbox
+
+/*!
+ * enquire.js v2.1.2 - Awesome Media Queries in JavaScript
+ * Copyright (c) 2014 Nick Williams - http://wicky.nillia.ms/enquire.js
+ * License: MIT (http://www.opensource.org/licenses/mit-license.php)
+ */
+/*!
+	Colorbox 1.5.14
+	license: MIT
+	http://www.jacklmoore.com/colorbox
+*/
+/*!
+ * jQuery Form Plugin
+ * version: 4.2.2
+ * Requires jQuery v1.7.2 or later
+ * Project repository: https://github.com/jquery-form/form
+
+ * Copyright 2017 Kevin Morris
+ * Copyright 2006 M. Alsup
+
+ * Dual licensed under the LGPL-2.1+ or MIT licenses
+ * https://github.com/jquery-form/form#license
+
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 2.1 of the License, or (at your option) any later version.
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Lesser General Public License for more details.
+ */
+
+ /*! jQuery UI - v1.12.1 - 2017-08-06
+* http://jqueryui.com
+* Includes: widget.js, position.js, data.js, disable-selection.js, focusable.js, form-reset-mixin.js, jquery-1-7.js, keycode.js, labels.js, scroll-parent.js, tabbable.js, unique-id.js, widgets/draggable.js, widgets/droppable.js, widgets/resizable.js, widgets/selectable.js, widgets/sortable.js, widgets/accordion.js, widgets/autocomplete.js, widgets/button.js, widgets/checkboxradio.js, widgets/controlgroup.js, widgets/datepicker.js, widgets/dialog.js, widgets/menu.js, widgets/mouse.js, widgets/progressbar.js, widgets/selectmenu.js, widgets/slider.js, widgets/spinner.js, widgets/tabs.js, widgets/tooltip.js, effect.js, effects/effect-blind.js, effects/effect-bounce.js, effects/effect-clip.js, effects/effect-drop.js, effects/effect-explode.js, effects/effect-fade.js, effects/effect-fold.js, effects/effect-highlight.js, effects/effect-puff.js, effects/effect-pulsate.js, effects/effect-scale.js, effects/effect-shake.js, effects/effect-size.js, effects/effect-slide.js, effects/effect-transfer.js
+* Copyright jQuery Foundation and other contributors; Licensed MIT */
+
+/*
+ * jQuery Templates Plugin 1.0.0pre
+ * http://github.com/jquery/jquery-tmpl
+ * Requires jQuery 1.4.2
+ *
+ * Copyright 2011, Software Freedom Conservancy, Inc.
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ */
+ /*
+ * Cookie plugin
+ *
+ * Copyright (c) 2006 Klaus Hartl (stilbuero.de)
+ * Dual licensed under the MIT and GPL licenses:
+ * http://www.opensource.org/licenses/mit-license.php
+ * http://www.gnu.org/licenses/gpl.html
+ *
+ */
+
+ /*
+ * Currency tools
+ *
+ * Copyright (c) 2013 Caroline Schnapp (mllegeorgesand@gmail.com)
+ * Licensed under the MIT license:
+ * http://www.opensource.org/licenses/mit-license.php
+ *
+ */
+
+ /*! waitForImages jQuery Plugin - v1.4.2 - 2013-01-19
+* https://github.com/alexanderdickson/waitForImages
+* Copyright (c) 2013 Alex Dickson; Licensed MIT */
+
+
+/*!
+ * jQuery Raty - A Star Rating Plugin
+ * ------------------------------------------------------------------
+ *
+ * jQuery Raty is a plugin that generates a customizable star rating.
+ *
+ * Licensed under The MIT License
+ *
+ * @version        2.5.2
+ * @since          2010.06.11
+ * @author         Washington Botelho
+ * @documentation  wbotelhos.com/raty
+ *
+ * ------------------------------------------------------------------
+ *
+ *  <div id="star"></div>
+ *
+ *  $('#star').raty();
+ *
+ */
+
+ /*! jQuery Validation Plugin - v1.17.0 - 7/29/2017
+ * https://jqueryvalidation.org/
+ * Copyright (c) 2017 J철rn Zaefferer; Licensed MIT */
+
+
+
+
+
+
+ /*
+ *
+ * TableSorter 2.0 - Client-side table sorting with ease!
+ * Version 2.0.5b
+ * @requires jQuery v1.2.3
+ *
+ * Copyright (c) 2007 Christian Bach
+ * Examples and docs at: http://tablesorter.com
+ * Dual licensed under the MIT and GPL licenses:
+ * http://www.opensource.org/licenses/mit-license.php
+ * http://www.gnu.org/licenses/gpl.html
+ *
+ */
+
+ /*!
+ * Chart.js
+ * http://chartjs.org/
+ * Version: 2.2.1
+ *
+ * Copyright 2016 Nick Downie
+ * Released under the MIT license
+ * https://github.com/chartjs/Chart.js/blob/master/LICENSE.md
+ */
+owlCarousel
